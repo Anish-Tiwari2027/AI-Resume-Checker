@@ -1,0 +1,29 @@
+python
+java
+c++
+c
+javascript
+node.js
+express.js
+react
+sql
+mysql
+mongodb
+firebase
+git
+github
+machine learning
+deep learning
+scikit-learn
+pandas
+numpy
+matplotlib
+flask
+fastapi
+streamlit
+docker
+linux
+solidity
+hardhat
+ganache
+metamask
