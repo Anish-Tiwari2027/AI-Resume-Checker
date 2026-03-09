@@ -485,7 +485,7 @@ else:
     # Instructions when inputs are missing
     st.markdown("""
     <div class="instruction-card">
-        <h3 style="color: #1E293B; font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">
+        <h3 style="color: #475569 ; font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">
             🚀 How It Works
         </h3>
         
