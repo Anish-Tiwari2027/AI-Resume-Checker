@@ -39,6 +39,47 @@ The system combines skill-based matching with TF-IDF content similarity to provi
 * Modular Machine Learning Pipeline
 
 ---
+## Live Deployment
+
+The AI Resume Checker is deployed on AWS EC2 and can be accessed through the public server URL.
+
+Live Application:
+http://13.54.47.88:8501
+
+Users can upload resumes and compare them with job descriptions to receive compatibility scores and skill analysis.
+
+## Cloud Deployment Architecture
+
+User Browser
+      ↓
+AWS EC2 Server
+      ↓
+Streamlit Web Application
+      ↓
+Resume Parsing Module
+      ↓
+NLP Skill Extraction
+      ↓
+TF-IDF Similarity Model
+      ↓
+Match Score Output
+
+## Deployment Process
+
+The application was deployed using Amazon Web Services (AWS).
+
+Steps followed:
+
+1. Created an EC2 instance using Ubuntu Linux.
+2. Configured security group rules to allow ports 22 (SSH) and 8501 (Streamlit).
+3. Connected to the server using SSH authentication.
+4. Cloned the GitHub repository on the cloud server.
+5. Installed required Python dependencies using pip.
+6. Launched the Streamlit application with external network access.
+
+Command used to run the application:
+
+python3 -m streamlit run streamlit_app.py --server.port 8501 --server.address 0.0.0.0
 
 ## Project Structure
 
@@ -66,6 +107,7 @@ AI_Resume_Checker/
 ```
 
 ---
+
 
 ## Installation
 
